@@ -1,0 +1,45 @@
+/*-------------------------------------------- Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+}
+
+.logo {
+    height: 150px;
+}
+
+.navitem > ul {
+    display: flex;
+    list-style-type:none ;
+}
+
+.navitem>ul>li {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 30px;
+    margin: 15px;
+}
+
+/*------------------------------- RestaurantCard and body */
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    background-color: aqua;
+}
+.card:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+.res-logo {
+    width: 100%;
+}
+.content {
+    margin: 10px;
+}
