@@ -12,13 +12,15 @@
 .navitem > ul {
     display: flex;
     list-style-type:none ;
+    margin-right: 70px;
 }
 
 .navitem>ul>li {
     font-size: x-large;
     font-weight: bold;
-    padding: 30px;
-    margin: 15px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 30px;
 }
 
 /*------------------------------- RestaurantCard and body */
@@ -26,11 +28,12 @@
 .res-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card {
     margin: 5px;
     padding: 5px;
-    width: 200px;
+    width: 215px;
     background-color: aqua;
     border: 2px solid black;
 
@@ -53,5 +56,42 @@
 }
 .toprated:hover {
     cursor: pointer;
-    border: 5px solid black;
+    border: 3px solid black;
+}
+
+/*-----------------------------ep-6*/
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.shimmer-card {
+    margin: 5px;
+    height: 400px;
+    padding: 5px;
+    width: 215px;
+    background-color: aqua;
+}
+.log{
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 47px;
+    font-size: large;
+    font-weight: bold;
+}
+.filter {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    margin: 10px;
+    border: 2px solid black;
+}
+.searchbtn:hover {
+    cursor: pointer;
+    border: 3px solid black; 
 }
