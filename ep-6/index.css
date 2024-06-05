@@ -1,0 +1,100 @@
+/*-------------------------------------------- Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+    align-items: flex-start;
+}
+
+.logo {
+    height: 150px;
+}
+
+.navitem > ul {
+    display: flex;
+    list-style-type:none ;
+    align-items: center;
+}
+
+.navitem>ul>li {
+    font-size: x-large;
+    font-weight: bold;
+    padding:  15px;
+    margin:  10px;
+    margin-top: 30px;
+}
+
+/*------------------------------- RestaurantCard and body */
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+
+}
+.card:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+.res-logo {
+    width: 100%;
+    
+}
+.content {
+    margin: 10px;
+}
+
+.toprated {
+    margin: 10px;
+    border: 2px solid black;
+}
+.toprated:hover {
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+/*------------------------ ep-6*/
+.logbtn {
+    height: 30px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: large;
+}
+.logbtn:hover {
+    border: 3px solid black;
+    cursor: pointer;
+}
+.shimmer-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shimmer-card {
+    height: 400px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.filter {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    margin: 10px;
+    border: 2px solid black;
+}
+.searchbtn:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
