@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+-------------------------------------------- Header 
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+    align-items: flex-start;
+}
+
+.logo {
+    height: 150px;
+}
+
+.navitem > ul {
+    display: flex;
+    list-style-type:none ;
+    align-items: center;
+}
+
+.navitem>ul>li {
+    font-size: x-large;
+    font-weight: bold;
+    padding:  15px;
+    margin:  10px;
+    margin-top: 30px;
+}
+
+------------------------------- RestaurantCard and body 
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 550px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.card:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+.cardlink {
+    text-decoration: none;
+    color: inherit;
+}
+.res-logo {
+    width: 100%;
+    
+}
+.content {
+    margin: 10px;
+}
+
+.toprated {
+    margin: 10px;
+    border: 2px solid black;
+}
+.toprated:hover {
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+------------------------ ep-6
+.logbtn {
+    height: 30px;
+    width: 90px;
+    border: 2px solid black;
+    font-size: large;
+}
+.logbtn:hover {
+    border: 3px solid black;
+    cursor: pointer;
+}
+.shimmer-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shimmer-card {
+    height: 400px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.filter {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    margin: 10px;
+    border: 2px solid black;
+}
+.searchbtn:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+----------------------------- ep-7
+.Menuhead {
+    text-align: center;
+}
+.Optionslist>li{
+    list-style-type:none ;
+    
+}
+.Optionslist{
+    padding: 0;
+}
+.Optionslist-bar{
+    display: flex;
+    background-color: antiquewhite;
+    margin: 10px 50px;
+    justify-content:space-between;
+    padding: 0 100px;
+}
+.Optionslist-bar>h2:hover{
+    cursor: pointer;
+}
+
+.Single-item-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 10px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.Item-details {
+    margin: 10px;
+}
+.Itemimg {
+    margin:10px;
+    height: 220px;
+    border: 2px solid black;
+}
+
+---------------ep-8-------------------
+.UserClass {
+    border: 5px solid black;
+    padding: 0 30px;
+    margin: 10px;
+}
+
+*/
